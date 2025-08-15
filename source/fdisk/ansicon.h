@@ -66,7 +66,7 @@
    
          ESC [ Pn C
    
-      Moves the cursor forword one column without changing lines.
+      Moves the cursor forward one column without changing lines.
    The  value  of Pn determines the number of columns moved.  The
    default value for Pn is one.  This sequence is ignored if  the
    cursor is  already in the rightmost column.
