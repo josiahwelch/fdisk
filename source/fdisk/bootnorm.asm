@@ -94,7 +94,7 @@ read_boot_sector:
   	push ds			; temporarily set DS to 0x40 (BIOS data area)
   	mov ax, 0x40		; to work around a BIOS bug
   	mov ds, ax		; https://github.com/FDOS/kernel/issues/156
-	mov bx, 0x55aa		; magic value shoud be changed after call
+	mov bx, 0x55aa		; magic value should be changed after call
 	mov ah, 0x41		; query INT 13h LBA capabilities
 	stc
 	int 0x13
