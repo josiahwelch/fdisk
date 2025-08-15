@@ -126,7 +126,7 @@ void Command_Line_Create_Logical_DOS_Drive( void )
    Partition_Table *pDrive = &part_table[flags.drive_number - 0x80];
 
    if ( arg[0].value == 0 ) {
-      /* NLS:Invalid partition size specifed. */
+      /* NLS:Invalid partition size specified. */
       con_print( svarlang_str( 8, 3 ) );
       exit( 9 );
    }
