@@ -310,7 +310,7 @@ static void _con_putc_plain( char c )
          case '\n': /* new line */
             con_nl();
             break;
-         case '\r': /* carrige return */
+         case '\r': /* carriage return */
             con_cr();
             break;
          case '\t':
