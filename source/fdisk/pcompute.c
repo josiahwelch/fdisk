@@ -791,7 +791,7 @@ unsigned long Max_Log_Part_Size_In_MB( void )
    return ( max_size_mb );
 }
 
-/* Get the maximum size of the primary partion, in MB.  */
+/* Get the maximum size of the primary partition, in MB.  */
 unsigned long Max_Pri_Part_Size_In_MB( int type )
 {
    unsigned long max_size_mb;
