@@ -132,7 +132,7 @@ void Check_For_INT13_Extensions( void )
          r.h.ah = 0x41;
          r.w.bx = 0x55aa;
          r.h.dl = drive;
-         r.w.ds = 0x40; /* temporarly point to BDA to work around
+         r.w.ds = 0x40; /* temporarily point to BDA to work around
                            Xi8088 and Book8088 BIOS bug, see
                            https://github.com/FDOS/kernel/issues/156 */
          intr( 0x13, &r );
