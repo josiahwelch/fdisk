@@ -65,7 +65,7 @@ scan_for_active_partition:
 chainload_bootsect:
 	push di				; save parttbl entry (restore to SI)
 	call read_boot_sector		; reads one sector                    	
-	jnc .check_signature		; no read error occured?
+	jnc .check_signature		; no read error occurred?
 	mov si, read_error_msg
 	jmp fatal			; does not return
   .check_signature:
