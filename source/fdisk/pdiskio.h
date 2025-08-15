@@ -59,7 +59,7 @@ typedef struct Partition {
 /* Partition Table Structure...Created 5/6/1999 */
 typedef struct part_table_structure {
 
-   int usable; /* true if drive is found and primary partition coud be read */
+   int usable; /* true if drive is found and primary partition could be read */
 
    /* Hard disk Geometry */
    /* total_cyl and total_head are actually not the total but the highest
