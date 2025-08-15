@@ -126,7 +126,7 @@
      44            Blue background         (ISO 6429 standard)
      45            Magenta background      (ISO 6429 standard)
      46            Cyan background         (ISO 6429 standard)
-     47            White backgound         (ISO 6429 standard)
+     47            White background         (ISO 6429 standard)
  */
 
 /* some ESC strings as preprocessor definition */
