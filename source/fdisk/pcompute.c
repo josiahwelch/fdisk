@@ -549,7 +549,7 @@ static void Determine_Log_Free_Space( Partition_Table *pDrive )
          }
          if ( pDrive->ptr_ext_part->end_head != pDrive->total_head ||
               pDrive->ptr_ext_part->end_sect != pDrive->total_sect ) {
-            /* reduce free space by one cylinder if exdended does not end on a
+            /* reduce free space by one cylinder if extended does not end on a
             cylinder boundary */
             pDrive->log_end_cyl -= 1;
             pDrive->ext_free_space -= 1;
