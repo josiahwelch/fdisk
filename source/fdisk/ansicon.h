@@ -168,7 +168,7 @@ void con_puts( const char *s ); /* like con_print with trailing new-line */
 
 /* Clear screen and move cursor to home position. */
 void con_clrscr( void );
-/* Clear from current cursor positon to end of line.
+/* Clear from current cursor position to end of line.
  * Cursor stays where it is. */
 void con_clreol( void );
 
