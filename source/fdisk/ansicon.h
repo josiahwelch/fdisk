@@ -30,11 +30,11 @@
 
    C U R S O R   F U N C T I O N S
    
-   CUP - Cursor Postion
+   CUP - Cursor Position
    
          ESC [ Pl ; Pc H
    
-   HVP - Horizontal & Vertical Postion
+   HVP - Horizontal & Vertical Position
    
          ESC [ Pl ; Pc f
    
@@ -42,7 +42,7 @@
    the parameters.  The first parameter specifies the line number
    and  the  second  parameter  specifies the column number.  The
    default value is one.  When no parameters are given the cursor
-   is moved to the home postion.
+   is moved to the home position.
 
    CUU - Cursor Up
    
