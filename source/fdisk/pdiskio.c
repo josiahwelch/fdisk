@@ -1022,7 +1022,7 @@ static int Read_Primary_Table( int drive, Partition_Table *pDrive,
 static int Read_Extended_Table( int drive, Partition_Table *pDrive )
 {
    Partition *ep;  /* EMBR entry of MBR, first in link chain */
-   Partition *nep; /* current EMBR link chain poinrter */
+   Partition *nep; /* current EMBR link chain pointer */
    Partition *p;   /* logical partition at entry 1 in current EMBR */
 
    unsigned long rel_sect;
