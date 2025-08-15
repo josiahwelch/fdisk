@@ -200,7 +200,7 @@ _bios_LBA_high dw 0
 
 
 LBABios:
-						; copy start adpdress of partition to DAP
+						; copy start address of partition to DAP
 	mov ax,[bp+8]
 	mov [0x7800+ (_bios_LBA_low-real_start)],ax
 	mov ax,[bp+8+2]
