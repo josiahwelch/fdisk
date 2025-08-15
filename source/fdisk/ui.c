@@ -174,7 +174,7 @@ void Interactive_User_Interface( void )
    con_set_textcolor( flags.screen_color );
    con_set_backcolor( flags.screen_color >> 4 );
 
-   /* abort if user decides so after beeing informed of FDISK not able
+   /* abort if user decides so after being informed of FDISK not able
       to correctly handle disks too large */
    for ( index = 0; index <= flags.maximum_drive_number - 0x80; ++index ) {
       if ( part_table[index].size_truncated ) {
