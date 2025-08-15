@@ -1061,7 +1061,7 @@ static int Read_Extended_Table( int drive, Partition_Table *pDrive )
       }
 
       /* determine LBA offset to calculate CHS values from for
-         logical partition, because EMBR entry stores relativ values */
+         logical partition, because EMBR entry stores relative values */
       rel_sect = ep->rel_sect + ( ( nep != ep ) ? nep->rel_sect : 0 );
       Read_Table_Entry( sector_buffer + 0x1be, pDrive, p, rel_sect );
 
