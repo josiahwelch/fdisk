@@ -118,7 +118,7 @@
      34            Blue foreground         (ISO 6429 standard)
      35            Magenta foreground      (ISO 6429 standard)
      36            Cyan foreground         (ISO 6429 standard)
-     37            White foregound         (ISO 6429 standard)
+     37            White foreground         (ISO 6429 standard)
      40            Black background        (ISO 6429 standard)
      41            Red background          (ISO 6429 standard)
      42            Green background        (ISO 6429 standard)
