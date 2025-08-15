@@ -279,7 +279,7 @@ void Display_CL_Partition_Table( void )
 
          index++;
       } while ( index < 27 );
-      /*NLS:Largest continious free space in extended partition [...] */
+      /*NLS:Largest continuous free space in extended partition [...] */
       con_printf( svarlang_str( 9, 7 ), Max_Log_Free_Space_In_MB() );
    }
    con_putc( '\n' );
