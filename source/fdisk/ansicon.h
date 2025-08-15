@@ -102,7 +102,7 @@
    
    Invokes  the  graphic rendition specified by the parameter(s).
    All  following  characters  are  rendered  according  to   the
-   parameter(s) until the next occurence of SGR.
+   parameter(s) until the next occurrence of SGR.
    
    Parameter     Parameter Function
    
