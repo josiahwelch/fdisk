@@ -853,7 +853,7 @@ int Create_DOS_Partition_Interface( int type )
       Print_At( 4, 6, svarlang_str( 9, 0 ) );
       Color_Printf( " %d", ( flags.drive_number - 127 ) );
 
-      /* ask, if all space should be reserverd */
+      /* ask, if all space should be reserved */
       if ( ( flags.drive_number - 128 ) == 0 ) {
          Print_At( 4, 8, svarlang_str( 10, 60 ) );
       }
