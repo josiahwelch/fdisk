@@ -326,7 +326,7 @@ static void _con_putc_plain( char c )
       /* writing to file, use DOS calls */
       memset( &r, 0, sizeof( union REGPACK ) );
       if ( c == '\n' ) {
-         /* hack in a CR befor NL when writing to a file */
+         /* hack in a CR before NL when writing to a file */
          r.h.ah = 2;
          r.h.dl = '\r';
          intr( 0x21, &r );
