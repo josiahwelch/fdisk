@@ -91,7 +91,7 @@ handoff_to_volume_bootrecord:
 
 read_boot_sector:
   .check_lba:
-  	push ds			; temporarly set DS to 0x40 (BIOS data area)
+  	push ds			; temporarily set DS to 0x40 (BIOS data area)
   	mov ax, 0x40		; to work around a BIOS bug
   	mov ds, ax		; https://github.com/FDOS/kernel/issues/156
 	mov bx, 0x55aa		; magic value shoud be changed after call
