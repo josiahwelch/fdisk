@@ -170,7 +170,7 @@ DAP_PACKET_SIZE equ 16
 PADDING_BYTES   equ CODE_SIZE - DAP_PACKET_SIZE - ($ - $$)
 
 %if PADDING_BYTES < 0
-  ; Not strictly needed, because this is catched by the times
+  ; Not strictly needed, because this is caught by the times
   ; directive below. But this gives a more meaningful error message.
   %error "code too large, try to decrease size"
 %endif
